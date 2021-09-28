@@ -4,7 +4,8 @@
 
 <!-- PROJECT DESCRIPTION -->
 ## ➲ Project description
-Apply face smile detection using haarcascade classifiers in opencv
+Face smile detection implementation using haarcascade classifiers in opencv, where the classifier detect every face within an image
+and and extract its bounding box then using opencv library we draw a rectangle on this face.
 
 <!-- PREREQUISTIES -->
 ## ➲ Prerequisites
