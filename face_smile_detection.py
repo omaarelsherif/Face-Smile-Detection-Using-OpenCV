@@ -10,8 +10,8 @@ import cv2
 import sys
 
 # 2 | Create cascade classifiers
-faceCascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
-smileCascade = cv2.CascadeClassifier('haarcascade_smile.xml')
+faceCascade = cv2.CascadeClassifier('Models/haarcascade_frontalface_default.xml')
+smileCascade = cv2.CascadeClassifier('Models/haarcascade_smile.xml')
 
 # 3 | Detect simle
 def detect_smile(img, gray):
@@ -27,8 +27,6 @@ def detect_smile(img, gray):
         
         # Detect smile in the face        
         smile = smileCascade.detectMultiScale(roi_gray, 1.7, 20)
-        
-        print(f"Here : {type(smile)}")
         
         # Set smile state as text (Smiling or not)
         if len(smile) != 0:
