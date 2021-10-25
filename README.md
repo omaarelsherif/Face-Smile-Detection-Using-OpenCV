@@ -17,6 +17,11 @@ This is list of required packages and modules for the project to be installed :
 * <a href="https://www.python.org/downloads/" target="_blank">Python 3.x</a>
 * OpenCv 
 
+Install all required packages :
+ ```sh
+  pip install -r requirements.txt
+  ```
+
 <!-- INSTALLATION -->
 ## <br>**➲ Installation**
 1. Clone the repo
